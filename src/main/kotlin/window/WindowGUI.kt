@@ -10,7 +10,7 @@ import javax.swing.JFrame
 import kotlin.math.abs
 
 /**Creates a GUI window with resolution width by height, name of window: name*/
-class WindowGUI(width: Int, height: Int, name: String) : IWindow, Canvas() {
+class WindowGUI(width: Int, height: Int, name: String) : Window, Canvas() {
     private var _width : Int
     private var _height : Int
 

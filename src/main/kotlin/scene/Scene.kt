@@ -1,5 +1,7 @@
 package scene
 
+import scene.renderables.Renderable
+
 /**
  * Renderable Scene.
  * */

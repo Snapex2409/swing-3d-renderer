@@ -3,7 +3,7 @@ package window
 /**
  * General functionality to draw. Uses absolute coordinates on screen.
  * */
-interface IWindow {
+interface Window {
     /**Set screen pixel width*/
     fun setWidth(w: Int)
     /**Get screen pixel width*/
